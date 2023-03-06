@@ -1,0 +1,15 @@
+# This is a Tip Calculator Project 
+
+
+print("welcome to the tip calculator! ")
+
+bill =float (input("what was the total bill ?? \n"))
+tip = float(input("how much would like to tip ?? \n" ))
+member = int(input("how many are you ??? "))
+
+bill_with_tip = bill*(1 +tip/100)
+each_person_bill = bill_with_tip/5
+
+print (f"Each person should pay : {round( each_person_bill,2)}")
+
+
